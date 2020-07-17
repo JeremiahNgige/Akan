@@ -63,3 +63,12 @@ body{
     text-align: left;
     font-size: 17px;
 }
+#info{
+        position: absolute;
+        top: 59vh;
+        margin-left: 5vw ;
+        width: 75%;
+        color: white;
+        text-align: left;
+        font-size: 17px;
+}
