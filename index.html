@@ -22,32 +22,46 @@
       <p id="more">
         Akan naming is based on your gender and the date of birth.  
       </p>
-      <a href="http://www.afropedea.org/akan-names"  id="info"><button class="btn btn-outline-secondary">More info</button></a>
+      <a href="http://www.afropedea.org/akan-names"  id="info"><button class="btn btn-outline-info btn-sm">More info</button></a>
       <p id="lower-more">
         <strong>Want to know your Akan name?<br/> Fill in the form on the right</strong>  
       </p>
     </div>
     <div class="right">
       <div class="form-filling">
-        <form>
+        <form name="fillForm">
           <div class="form-group">
-            <label for="exampleInputEmail1">Year of birth</label>
-            <input type="number" class="form-control"  placeholder="Year of birth eg: 2020">
+            <label for="exampleInputEmail1"><strong>Year of birth</strong></label>
+            <input type="number" class="form-control"  placeholder="Year of birth eg: 2020" name="year">
             
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Month of Birth</label>
-            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Month of birth eg: 6">
+            <label for="exampleInputPassword1"><strong>Month of Birth</strong></label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Month of birth eg: 6" name="month">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Date of Birth</label>
-            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Date of birth eg: 16">
+            <label for="exampleInputPassword1"><strong>Date of Birth</strong></label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Date of birth eg: 16" name="date">
           </div>
+          <div class="male">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gender" id="male" value="option1">
+              <label class="form-check-label" for="exampleRadios1">
+                <strong>Male</strong> 
+              </label>
+            </div>
+        </div>
+        <div class="female">
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <input class="form-check-input" type="radio" name="gender" id="female" value="option1">
+            <label class="form-check-label" for="exampleRadios1">
+              <strong>female</strong> 
+            </label>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="get-name">
+          <button type="submit" class="btn btn-primary btn-lg">Get Name</button>
+      </div>
         </form>
       </div>
       

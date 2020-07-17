@@ -65,15 +65,28 @@ body{
 }
 #info{
         position: absolute;
-        top: 59vh;
+        top: 60vh;
         margin-left: 5vw ;
         width: 75%;
         color: white;
         text-align: left;
         font-size: 17px;
+        
 }
 .form-filling{
     width:60% ;
     margin-left: 105px;
     margin-top: 130px;
+}
+.male{
+    margin-top: 35px;
+}
+.female{
+    position: absolute;
+    top: 70.1%;
+    left: 30%;
+}
+.get-name{
+    margin-left: 0%;
+    margin-top: 30px;
 }
