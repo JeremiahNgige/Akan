@@ -100,4 +100,8 @@ function validate() {
             
     }
   }
+  function findName(){
+    dayValue = calculateDayValue();
+    getGender();
+  }
   
