@@ -10,12 +10,12 @@ function validate() {
        document.fillForm.year.focus() ;
        return false;
     }
-    else if( document.fillForm.month.value == "" || document.fillForm.month.value.length != 2 || document.fillForm.month.value > 12  || document.fillForm.month.value <= 0){
+    else if( document.fillForm.month.value == "" || document.fillForm.month.value.length > 2 || document.fillForm.month.value > 12  || document.fillForm.month.value <= 0){
        alert( "Please provide a valid month!" );
        document.fillForm.month.focus() ;
        return false;
     }
-    else if( document.fillForm.date.value == ""  || document.fillForm.date.value.length != 2|| document.fillForm.date.value > 31 || document.fillForm.date.value <= 0) {
+    else if( document.fillForm.date.value == ""  || document.fillForm.date.value.length > 2|| document.fillForm.date.value > 31 || document.fillForm.date.value <= 0) {
        alert( "Please provide a valid date!" );
        document.fillForm.day.focus() ;
        return false;
