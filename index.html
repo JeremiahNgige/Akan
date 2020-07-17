@@ -29,19 +29,19 @@
     </div>
     <div class="right">
       <div class="form-filling">
-        <form name="fillForm">
+        <form name="fillForm" onsubmit="validate();">
           <div class="form-group">
             <label for="exampleInputEmail1"><strong>Year of birth</strong></label>
-            <input type="number" class="form-control"  placeholder="Year of birth eg: 2020" name="year">
+            <input type="number" class="form-control" id="year" placeholder="Year of birth eg: 2020" name="year">
             
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1"><strong>Month of Birth</strong></label>
-            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Month of birth eg: 6" name="month">
+            <input type="number" class="form-control" id="month" placeholder="Month of birth eg: 6" name="month">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1"><strong>Date of Birth</strong></label>
-            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Date of birth eg: 16" name="date">
+            <input type="number" class="form-control" id="date" placeholder="Date of birth eg: 16" name="date">
           </div>
           <div class="male">
             <div class="form-check">
