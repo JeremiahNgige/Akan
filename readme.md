@@ -2,14 +2,9 @@
     Akan 
   
 ## Description
- This the landing page of Akan.<br/>
- Now to serve the purpose of this site.<br/>press the form button and it will <br/>scroll you down to a form that looks like this.
-
- Scroll down again to the footer section that contains My contact information.
- <br/>
-
- Fill in the details in the respective input and click submit once you're done.<br/>
-**link**  https://jeremiahngige.github.io/portfolio3/
+ Akan is a website to calculate and alert you your Akan name besides the day of the week your were born, given your gender and year, month, date of birth.
+ 
+**link**  https://jeremiahngige.github.io/Akan/
 
 ## Technologies Used
 
